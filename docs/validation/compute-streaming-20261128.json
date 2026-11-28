@@ -1,0 +1,2874 @@
+{
+  "date": "2026-11-28",
+  "host": {
+    "cpu": "Apple M6",
+    "ram_bytes": 25769803776,
+    "guest": "AArch64 Linux",
+    "backend": "cached interpreter",
+    "cpus": 1
+  },
+  "runtime": "e188a11a0925e1e8503943be7f4cfe2990b07cee",
+  "scope": "Host/interpreter synthetic probes; not a physical-iPad or application end-to-end benchmark",
+  "oneshot": {
+    "bytes": 65536,
+    "samples": [
+      {
+        "sample": 0,
+        "mode": "off",
+        "wall_seconds": 0.508328333,
+        "operations": [
+          {
+            "operation": "zlib-compress",
+            "bytes": 65536,
+            "output_bytes": 17124,
+            "nanoseconds": 47963792
+          },
+          {
+            "operation": "zlib-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 6249583
+          },
+          {
+            "operation": "zstd-compress",
+            "bytes": 65536,
+            "output_bytes": 16722,
+            "nanoseconds": 3634083
+          },
+          {
+            "operation": "zstd-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 366666
+          },
+          {
+            "operation": "xz-compress",
+            "bytes": 65536,
+            "output_bytes": 17044,
+            "nanoseconds": 150333458
+          },
+          {
+            "operation": "xz-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 19563000
+          },
+          {
+            "operation": "sha256",
+            "bytes": 65536,
+            "output_bytes": 32,
+            "nanoseconds": 5210167
+          },
+          {
+            "operation": "aes128-cbc-encrypt",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 22674625
+          },
+          {
+            "operation": "crc32",
+            "bytes": 65536,
+            "output_bytes": 4,
+            "nanoseconds": 2189500
+          }
+        ],
+        "compute_calls": 0,
+        "worker_calls": 0,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 0,
+        "mode": "pure",
+        "wall_seconds": 0.24028170800000004,
+        "operations": [
+          {
+            "operation": "zlib-compress",
+            "bytes": 65536,
+            "output_bytes": 17124,
+            "nanoseconds": 1084209
+          },
+          {
+            "operation": "zlib-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 164667
+          },
+          {
+            "operation": "zstd-compress",
+            "bytes": 65536,
+            "output_bytes": 16722,
+            "nanoseconds": 589375
+          },
+          {
+            "operation": "zstd-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 159875
+          },
+          {
+            "operation": "xz-compress",
+            "bytes": 65536,
+            "output_bytes": 17044,
+            "nanoseconds": 1924208
+          },
+          {
+            "operation": "xz-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 476541
+          },
+          {
+            "operation": "sha256",
+            "bytes": 65536,
+            "output_bytes": 32,
+            "nanoseconds": 88709
+          },
+          {
+            "operation": "aes128-cbc-encrypt",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 200958
+          },
+          {
+            "operation": "crc32",
+            "bytes": 65536,
+            "output_bytes": 4,
+            "nanoseconds": 18708
+          }
+        ],
+        "compute_calls": 14,
+        "worker_calls": 14,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 1,
+        "mode": "pure",
+        "wall_seconds": 0.22877262500000006,
+        "operations": [
+          {
+            "operation": "zlib-compress",
+            "bytes": 65536,
+            "output_bytes": 17124,
+            "nanoseconds": 354625
+          },
+          {
+            "operation": "zlib-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 147875
+          },
+          {
+            "operation": "zstd-compress",
+            "bytes": 65536,
+            "output_bytes": 16722,
+            "nanoseconds": 145084
+          },
+          {
+            "operation": "zstd-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 26875
+          },
+          {
+            "operation": "xz-compress",
+            "bytes": 65536,
+            "output_bytes": 17044,
+            "nanoseconds": 2074875
+          },
+          {
+            "operation": "xz-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 494834
+          },
+          {
+            "operation": "sha256",
+            "bytes": 65536,
+            "output_bytes": 32,
+            "nanoseconds": 95334
+          },
+          {
+            "operation": "aes128-cbc-encrypt",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 164750
+          },
+          {
+            "operation": "crc32",
+            "bytes": 65536,
+            "output_bytes": 4,
+            "nanoseconds": 19417
+          }
+        ],
+        "compute_calls": 14,
+        "worker_calls": 14,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 1,
+        "mode": "off",
+        "wall_seconds": 0.4678953749999999,
+        "operations": [
+          {
+            "operation": "zlib-compress",
+            "bytes": 65536,
+            "output_bytes": 17124,
+            "nanoseconds": 44701208
+          },
+          {
+            "operation": "zlib-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 6562416
+          },
+          {
+            "operation": "zstd-compress",
+            "bytes": 65536,
+            "output_bytes": 16722,
+            "nanoseconds": 4456000
+          },
+          {
+            "operation": "zstd-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 422292
+          },
+          {
+            "operation": "xz-compress",
+            "bytes": 65536,
+            "output_bytes": 17044,
+            "nanoseconds": 155433875
+          },
+          {
+            "operation": "xz-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 22338958
+          },
+          {
+            "operation": "sha256",
+            "bytes": 65536,
+            "output_bytes": 32,
+            "nanoseconds": 5688833
+          },
+          {
+            "operation": "aes128-cbc-encrypt",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 21304000
+          },
+          {
+            "operation": "crc32",
+            "bytes": 65536,
+            "output_bytes": 4,
+            "nanoseconds": 2158208
+          }
+        ],
+        "compute_calls": 0,
+        "worker_calls": 0,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 2,
+        "mode": "off",
+        "wall_seconds": 0.45138725,
+        "operations": [
+          {
+            "operation": "zlib-compress",
+            "bytes": 65536,
+            "output_bytes": 17124,
+            "nanoseconds": 45845208
+          },
+          {
+            "operation": "zlib-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 6678167
+          },
+          {
+            "operation": "zstd-compress",
+            "bytes": 65536,
+            "output_bytes": 16722,
+            "nanoseconds": 4335750
+          },
+          {
+            "operation": "zstd-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 299167
+          },
+          {
+            "operation": "xz-compress",
+            "bytes": 65536,
+            "output_bytes": 17044,
+            "nanoseconds": 152679292
+          },
+          {
+            "operation": "xz-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 22282500
+          },
+          {
+            "operation": "sha256",
+            "bytes": 65536,
+            "output_bytes": 32,
+            "nanoseconds": 4232584
+          },
+          {
+            "operation": "aes128-cbc-encrypt",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 22724333
+          },
+          {
+            "operation": "crc32",
+            "bytes": 65536,
+            "output_bytes": 4,
+            "nanoseconds": 2181000
+          }
+        ],
+        "compute_calls": 0,
+        "worker_calls": 0,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 2,
+        "mode": "pure",
+        "wall_seconds": 0.2849503339999999,
+        "operations": [
+          {
+            "operation": "zlib-compress",
+            "bytes": 65536,
+            "output_bytes": 17124,
+            "nanoseconds": 267208
+          },
+          {
+            "operation": "zlib-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 92709
+          },
+          {
+            "operation": "zstd-compress",
+            "bytes": 65536,
+            "output_bytes": 16722,
+            "nanoseconds": 75334
+          },
+          {
+            "operation": "zstd-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 23125
+          },
+          {
+            "operation": "xz-compress",
+            "bytes": 65536,
+            "output_bytes": 17044,
+            "nanoseconds": 1518667
+          },
+          {
+            "operation": "xz-decompress",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 472875
+          },
+          {
+            "operation": "sha256",
+            "bytes": 65536,
+            "output_bytes": 32,
+            "nanoseconds": 68917
+          },
+          {
+            "operation": "aes128-cbc-encrypt",
+            "bytes": 65536,
+            "output_bytes": 65536,
+            "nanoseconds": 208000
+          },
+          {
+            "operation": "crc32",
+            "bytes": 65536,
+            "output_bytes": 4,
+            "nanoseconds": 21125
+          }
+        ],
+        "compute_calls": 14,
+        "worker_calls": 14,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      }
+    ],
+    "medians": {
+      "zlib-compress": {
+        "off_nanoseconds": 45845208,
+        "pure_nanoseconds": 354625,
+        "speedup": 129.27799224532959
+      },
+      "zlib-decompress": {
+        "off_nanoseconds": 6562416,
+        "pure_nanoseconds": 147875,
+        "speedup": 44.37813017751479
+      },
+      "zstd-compress": {
+        "off_nanoseconds": 4335750,
+        "pure_nanoseconds": 145084,
+        "speedup": 29.884411789032562
+      },
+      "zstd-decompress": {
+        "off_nanoseconds": 366666,
+        "pure_nanoseconds": 26875,
+        "speedup": 13.643386046511628
+      },
+      "xz-compress": {
+        "off_nanoseconds": 152679292,
+        "pure_nanoseconds": 1924208,
+        "speedup": 79.34656336529108
+      },
+      "xz-decompress": {
+        "off_nanoseconds": 22282500,
+        "pure_nanoseconds": 476541,
+        "speedup": 46.75883082462999
+      },
+      "sha256": {
+        "off_nanoseconds": 5210167,
+        "pure_nanoseconds": 88709,
+        "speedup": 58.73324014474292
+      },
+      "aes128-cbc-encrypt": {
+        "off_nanoseconds": 22674625,
+        "pure_nanoseconds": 200958,
+        "speedup": 112.83265657500573
+      },
+      "crc32": {
+        "off_nanoseconds": 2181000,
+        "pure_nanoseconds": 19417,
+        "speedup": 112.32425194417263
+      }
+    },
+    "whole_probe_wall_seconds": {
+      "off": 0.4678953749999999,
+      "pure": 0.24028170800000004
+    },
+    "whole_probe_speedup": 1.947278379592673
+  },
+  "streaming": {
+    "bytes": 4194304,
+    "encode_input_chunk": 16384,
+    "encode_output_chunk": 65536,
+    "decode_input_chunk": 65536,
+    "samples": [
+      {
+        "sample": 0,
+        "mode": "off",
+        "wall_seconds": 13.962182583,
+        "operations": [
+          {
+            "operation": "zlib-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 2619842125
+          },
+          {
+            "operation": "zlib-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 336794708
+          },
+          {
+            "operation": "xz-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 8016994792
+          },
+          {
+            "operation": "xz-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 1234063834
+          },
+          {
+            "operation": "zstd-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 239631459
+          },
+          {
+            "operation": "zstd-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 25158250
+          }
+        ],
+        "compute_calls": 0,
+        "worker_calls": 0,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 0,
+        "mode": "pure",
+        "wall_seconds": 3.869499083999999,
+        "operations": [
+          {
+            "operation": "zlib-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 64375083
+          },
+          {
+            "operation": "zlib-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 27315084
+          },
+          {
+            "operation": "xz-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 2083166959
+          },
+          {
+            "operation": "xz-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 163569667
+          },
+          {
+            "operation": "zstd-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 123504167
+          },
+          {
+            "operation": "zstd-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 22373416
+          }
+        ],
+        "compute_calls": 10,
+        "worker_calls": 886,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 804
+      },
+      {
+        "sample": 1,
+        "mode": "pure",
+        "wall_seconds": 3.763954375000001,
+        "operations": [
+          {
+            "operation": "zlib-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 56051000
+          },
+          {
+            "operation": "zlib-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 28403084
+          },
+          {
+            "operation": "xz-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 2050302250
+          },
+          {
+            "operation": "xz-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 133843375
+          },
+          {
+            "operation": "zstd-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 114352833
+          },
+          {
+            "operation": "zstd-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 21799250
+          }
+        ],
+        "compute_calls": 10,
+        "worker_calls": 886,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 804
+      },
+      {
+        "sample": 1,
+        "mode": "off",
+        "wall_seconds": 13.353219707999997,
+        "operations": [
+          {
+            "operation": "zlib-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 2572853542
+          },
+          {
+            "operation": "zlib-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 337117500
+          },
+          {
+            "operation": "xz-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 7882626542
+          },
+          {
+            "operation": "xz-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 1083866791
+          },
+          {
+            "operation": "zstd-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 213976375
+          },
+          {
+            "operation": "zstd-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 22561209
+          }
+        ],
+        "compute_calls": 0,
+        "worker_calls": 0,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 2,
+        "mode": "off",
+        "wall_seconds": 13.322306750000003,
+        "operations": [
+          {
+            "operation": "zlib-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 2543654417
+          },
+          {
+            "operation": "zlib-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 334708583
+          },
+          {
+            "operation": "xz-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 7914145291
+          },
+          {
+            "operation": "xz-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 1068964458
+          },
+          {
+            "operation": "zstd-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 217108166
+          },
+          {
+            "operation": "zstd-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 22362041
+          }
+        ],
+        "compute_calls": 0,
+        "worker_calls": 0,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 0
+      },
+      {
+        "sample": 2,
+        "mode": "pure",
+        "wall_seconds": 3.4208223329999967,
+        "operations": [
+          {
+            "operation": "zlib-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 50197333
+          },
+          {
+            "operation": "zlib-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 25734291
+          },
+          {
+            "operation": "xz-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 1799066042
+          },
+          {
+            "operation": "xz-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 131160125
+          },
+          {
+            "operation": "zstd-stream-compress",
+            "bytes": 4194304,
+            "nanoseconds": 112661917
+          },
+          {
+            "operation": "zstd-stream-decompress",
+            "bytes": 4194304,
+            "nanoseconds": 21607959
+          }
+        ],
+        "compute_calls": 10,
+        "worker_calls": 886,
+        "compute_fallbacks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stream_native_steps": 804
+      }
+    ],
+    "medians": {
+      "zlib-stream-compress": {
+        "off_nanoseconds": 2572853542,
+        "pure_nanoseconds": 56051000,
+        "speedup": 45.90200963408324
+      },
+      "zlib-stream-decompress": {
+        "off_nanoseconds": 336794708,
+        "pure_nanoseconds": 27315084,
+        "speedup": 12.329989832723927
+      },
+      "xz-stream-compress": {
+        "off_nanoseconds": 7914145291,
+        "pure_nanoseconds": 2050302250,
+        "speedup": 3.8599895654409004
+      },
+      "xz-stream-decompress": {
+        "off_nanoseconds": 1083866791,
+        "pure_nanoseconds": 133843375,
+        "speedup": 8.09802346212504
+      },
+      "zstd-stream-compress": {
+        "off_nanoseconds": 217108166,
+        "pure_nanoseconds": 114352833,
+        "speedup": 1.8985814369811023
+      },
+      "zstd-stream-decompress": {
+        "off_nanoseconds": 22561209,
+        "pure_nanoseconds": 21799250,
+        "speedup": 1.0349534502333795
+      }
+    },
+    "whole_probe_wall_seconds": {
+      "off": 13.353219707999997,
+      "pure": 3.763954375000001
+    },
+    "whole_probe_speedup": 3.5476571652120503
+  },
+  "acceptance": [
+    {
+      "case": "alpine322-1-off",
+      "seconds": 6.929668958,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-1-pure",
+      "seconds": 3.9325407500000003,
+      "exit": 0,
+      "native_steps": [
+        66,
+        9,
+        71,
+        63,
+        6
+      ],
+      "learns": [
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "cache_misses": 182
+    },
+    {
+      "case": "alpine322-2-off",
+      "seconds": 6.482965959000001,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-2-pure",
+      "seconds": 3.9071056250000034,
+      "exit": 0,
+      "native_steps": [
+        66,
+        9,
+        71,
+        63,
+        6
+      ],
+      "learns": [
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "cache_misses": 182
+    },
+    {
+      "case": "alpine322-4-off",
+      "seconds": 7.799941999999998,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-4-pure",
+      "seconds": 3.918248042000002,
+      "exit": 0,
+      "native_steps": [
+        66,
+        9,
+        71,
+        63,
+        6
+      ],
+      "learns": [
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "cache_misses": 182
+    },
+    {
+      "case": "debian13-1-off",
+      "seconds": 6.1457101659999935,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-1-pure",
+      "seconds": 5.215599999999995,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        8,
+        63,
+        6
+      ],
+      "learns": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 239
+    },
+    {
+      "case": "debian13-2-off",
+      "seconds": 6.444248000000002,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-2-pure",
+      "seconds": 5.255959791000002,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        8,
+        63,
+        6
+      ],
+      "learns": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 239
+    },
+    {
+      "case": "debian13-4-off",
+      "seconds": 6.248204042000005,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-4-pure",
+      "seconds": 5.282129499999996,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        8,
+        63,
+        6
+      ],
+      "learns": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 239
+    }
+  ],
+  "trace_callbacks": [
+    {
+      "case": "debian13-1-off",
+      "seconds": 3.1040105,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-1-pure",
+      "seconds": 2.2115847079999997,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        4,
+        0,
+        0
+      ],
+      "learns": [
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "cache_misses": 65
+    }
+  ],
+  "raw_and_gzip": [
+    {
+      "case": "alpine322-1-off",
+      "seconds": 7.380119042,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-1-pure",
+      "seconds": 2.3669700419999993,
+      "exit": 0,
+      "native_steps": [
+        100,
+        7,
+        67,
+        63,
+        3
+      ],
+      "learns": [
+        8,
+        6,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 21
+    },
+    {
+      "case": "debian13-1-off",
+      "seconds": 6.868128125,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-1-pure",
+      "seconds": 5.583195750000001,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        4,
+        63,
+        3
+      ],
+      "learns": [
+        1,
+        0,
+        2,
+        3,
+        1
+      ],
+      "cache_misses": 108
+    }
+  ],
+  "checks": {
+    "apple_accel_tests": 39,
+    "linux_accel_tests": 39,
+    "apple_clippy": "pass",
+    "linux_session_build": "pass",
+    "ios_source_checked_archive": "pass",
+    "ipad_dependency_boundary": "pass: interpreter only, no JIT"
+  },
+  "ios": {
+    "version": "1.5.4",
+    "build": 50,
+    "installed": true,
+    "launch_verified": false,
+    "launch_status": "device locked; CoreDevice refused launch",
+    "bundle": "org.trames.Trames",
+    "executable_sha256": "fd8ce86e0af53a35c3af65fe14bfd107960c052facea06295f407658ec89e3d2",
+    "rust_archive_sha256": "7642d4ee3b376160b7dd8a4023e4731a6a35a4e59d37aa64d04d13d11ecaee17"
+  },
+  "limitations": [
+    "Debian zlib 1.3.1 streaming inflate and xz 5.8.1 easy encoder remain original",
+    "Zstd compressed fragments below 64 KiB remain original",
+    "Custom allocator initialization remains original",
+    "Cache budget can decline large encoder states",
+    "Zstd streaming decompression is approximately unchanged in this test"
+  ],
+  "fixtures": {
+    "native-compute-bench.c": "396d9358c040a750bae236f2ba370b9ad8283dd0c61760264335726776853fea",
+    "native-stream-probe.c": "6584af44aaa5f8e8680a94183041e3ffa0e8a3dbdec5f67e48a8f7b53ab233d8",
+    "stream-probe-perf-final": "c4df52ae4b88673306e35e40d1e55d2d97fc6ed25ea75cf4bf67387423e22039"
+  },
+  "benchmark_base_runtime": "e188a11a0925e1e8503943be7f4cfe2990b07cee",
+  "integrated_main_base": "6393ac13",
+  "merged_acceptance": [
+    {
+      "case": "alpine322-1-off",
+      "seconds": 8.597411834,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-1-pure",
+      "seconds": 4.045919332999999,
+      "exit": 0,
+      "native_steps": [
+        66,
+        9,
+        71,
+        63,
+        6
+      ],
+      "learns": [
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "cache_misses": 182
+    },
+    {
+      "case": "alpine322-2-off",
+      "seconds": 7.036937792,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-2-pure",
+      "seconds": 4.120433708,
+      "exit": 0,
+      "native_steps": [
+        66,
+        9,
+        71,
+        63,
+        6
+      ],
+      "learns": [
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "cache_misses": 182
+    },
+    {
+      "case": "alpine322-4-off",
+      "seconds": 7.672771666999999,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "alpine322-4-pure",
+      "seconds": 5.194235334000002,
+      "exit": 0,
+      "native_steps": [
+        66,
+        9,
+        71,
+        63,
+        6
+      ],
+      "learns": [
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "cache_misses": 182
+    },
+    {
+      "case": "debian13-1-off",
+      "seconds": 8.828567333000002,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-1-pure",
+      "seconds": 7.264314999999996,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        8,
+        63,
+        6
+      ],
+      "learns": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 239
+    },
+    {
+      "case": "debian13-2-off",
+      "seconds": 8.297992166999997,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-2-pure",
+      "seconds": 8.322283874999997,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        8,
+        63,
+        6
+      ],
+      "learns": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 239
+    },
+    {
+      "case": "debian13-4-off",
+      "seconds": 6.405536083000001,
+      "exit": 0,
+      "native_steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "learns": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cache_misses": 0
+    },
+    {
+      "case": "debian13-4-pure",
+      "seconds": 5.157757458000006,
+      "exit": 0,
+      "native_steps": [
+        64,
+        0,
+        8,
+        63,
+        6
+      ],
+      "learns": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "cache_misses": 239
+    }
+  ],
+  "earlier_measurements": {
+    "oneshot": {
+      "bytes": 65536,
+      "samples": [
+        {
+          "sample": 0,
+          "mode": "off",
+          "wall_seconds": 0.508328333,
+          "operations": [
+            {
+              "operation": "zlib-compress",
+              "bytes": 65536,
+              "output_bytes": 17124,
+              "nanoseconds": 47963792
+            },
+            {
+              "operation": "zlib-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 6249583
+            },
+            {
+              "operation": "zstd-compress",
+              "bytes": 65536,
+              "output_bytes": 16722,
+              "nanoseconds": 3634083
+            },
+            {
+              "operation": "zstd-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 366666
+            },
+            {
+              "operation": "xz-compress",
+              "bytes": 65536,
+              "output_bytes": 17044,
+              "nanoseconds": 150333458
+            },
+            {
+              "operation": "xz-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 19563000
+            },
+            {
+              "operation": "sha256",
+              "bytes": 65536,
+              "output_bytes": 32,
+              "nanoseconds": 5210167
+            },
+            {
+              "operation": "aes128-cbc-encrypt",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 22674625
+            },
+            {
+              "operation": "crc32",
+              "bytes": 65536,
+              "output_bytes": 4,
+              "nanoseconds": 2189500
+            }
+          ],
+          "compute_calls": 0,
+          "worker_calls": 0,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 0,
+          "mode": "pure",
+          "wall_seconds": 0.24028170800000004,
+          "operations": [
+            {
+              "operation": "zlib-compress",
+              "bytes": 65536,
+              "output_bytes": 17124,
+              "nanoseconds": 1084209
+            },
+            {
+              "operation": "zlib-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 164667
+            },
+            {
+              "operation": "zstd-compress",
+              "bytes": 65536,
+              "output_bytes": 16722,
+              "nanoseconds": 589375
+            },
+            {
+              "operation": "zstd-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 159875
+            },
+            {
+              "operation": "xz-compress",
+              "bytes": 65536,
+              "output_bytes": 17044,
+              "nanoseconds": 1924208
+            },
+            {
+              "operation": "xz-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 476541
+            },
+            {
+              "operation": "sha256",
+              "bytes": 65536,
+              "output_bytes": 32,
+              "nanoseconds": 88709
+            },
+            {
+              "operation": "aes128-cbc-encrypt",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 200958
+            },
+            {
+              "operation": "crc32",
+              "bytes": 65536,
+              "output_bytes": 4,
+              "nanoseconds": 18708
+            }
+          ],
+          "compute_calls": 14,
+          "worker_calls": 14,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 1,
+          "mode": "pure",
+          "wall_seconds": 0.22877262500000006,
+          "operations": [
+            {
+              "operation": "zlib-compress",
+              "bytes": 65536,
+              "output_bytes": 17124,
+              "nanoseconds": 354625
+            },
+            {
+              "operation": "zlib-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 147875
+            },
+            {
+              "operation": "zstd-compress",
+              "bytes": 65536,
+              "output_bytes": 16722,
+              "nanoseconds": 145084
+            },
+            {
+              "operation": "zstd-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 26875
+            },
+            {
+              "operation": "xz-compress",
+              "bytes": 65536,
+              "output_bytes": 17044,
+              "nanoseconds": 2074875
+            },
+            {
+              "operation": "xz-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 494834
+            },
+            {
+              "operation": "sha256",
+              "bytes": 65536,
+              "output_bytes": 32,
+              "nanoseconds": 95334
+            },
+            {
+              "operation": "aes128-cbc-encrypt",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 164750
+            },
+            {
+              "operation": "crc32",
+              "bytes": 65536,
+              "output_bytes": 4,
+              "nanoseconds": 19417
+            }
+          ],
+          "compute_calls": 14,
+          "worker_calls": 14,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 1,
+          "mode": "off",
+          "wall_seconds": 0.4678953749999999,
+          "operations": [
+            {
+              "operation": "zlib-compress",
+              "bytes": 65536,
+              "output_bytes": 17124,
+              "nanoseconds": 44701208
+            },
+            {
+              "operation": "zlib-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 6562416
+            },
+            {
+              "operation": "zstd-compress",
+              "bytes": 65536,
+              "output_bytes": 16722,
+              "nanoseconds": 4456000
+            },
+            {
+              "operation": "zstd-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 422292
+            },
+            {
+              "operation": "xz-compress",
+              "bytes": 65536,
+              "output_bytes": 17044,
+              "nanoseconds": 155433875
+            },
+            {
+              "operation": "xz-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 22338958
+            },
+            {
+              "operation": "sha256",
+              "bytes": 65536,
+              "output_bytes": 32,
+              "nanoseconds": 5688833
+            },
+            {
+              "operation": "aes128-cbc-encrypt",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 21304000
+            },
+            {
+              "operation": "crc32",
+              "bytes": 65536,
+              "output_bytes": 4,
+              "nanoseconds": 2158208
+            }
+          ],
+          "compute_calls": 0,
+          "worker_calls": 0,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 2,
+          "mode": "off",
+          "wall_seconds": 0.45138725,
+          "operations": [
+            {
+              "operation": "zlib-compress",
+              "bytes": 65536,
+              "output_bytes": 17124,
+              "nanoseconds": 45845208
+            },
+            {
+              "operation": "zlib-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 6678167
+            },
+            {
+              "operation": "zstd-compress",
+              "bytes": 65536,
+              "output_bytes": 16722,
+              "nanoseconds": 4335750
+            },
+            {
+              "operation": "zstd-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 299167
+            },
+            {
+              "operation": "xz-compress",
+              "bytes": 65536,
+              "output_bytes": 17044,
+              "nanoseconds": 152679292
+            },
+            {
+              "operation": "xz-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 22282500
+            },
+            {
+              "operation": "sha256",
+              "bytes": 65536,
+              "output_bytes": 32,
+              "nanoseconds": 4232584
+            },
+            {
+              "operation": "aes128-cbc-encrypt",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 22724333
+            },
+            {
+              "operation": "crc32",
+              "bytes": 65536,
+              "output_bytes": 4,
+              "nanoseconds": 2181000
+            }
+          ],
+          "compute_calls": 0,
+          "worker_calls": 0,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 2,
+          "mode": "pure",
+          "wall_seconds": 0.2849503339999999,
+          "operations": [
+            {
+              "operation": "zlib-compress",
+              "bytes": 65536,
+              "output_bytes": 17124,
+              "nanoseconds": 267208
+            },
+            {
+              "operation": "zlib-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 92709
+            },
+            {
+              "operation": "zstd-compress",
+              "bytes": 65536,
+              "output_bytes": 16722,
+              "nanoseconds": 75334
+            },
+            {
+              "operation": "zstd-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 23125
+            },
+            {
+              "operation": "xz-compress",
+              "bytes": 65536,
+              "output_bytes": 17044,
+              "nanoseconds": 1518667
+            },
+            {
+              "operation": "xz-decompress",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 472875
+            },
+            {
+              "operation": "sha256",
+              "bytes": 65536,
+              "output_bytes": 32,
+              "nanoseconds": 68917
+            },
+            {
+              "operation": "aes128-cbc-encrypt",
+              "bytes": 65536,
+              "output_bytes": 65536,
+              "nanoseconds": 208000
+            },
+            {
+              "operation": "crc32",
+              "bytes": 65536,
+              "output_bytes": 4,
+              "nanoseconds": 21125
+            }
+          ],
+          "compute_calls": 14,
+          "worker_calls": 14,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        }
+      ],
+      "medians": {
+        "zlib-compress": {
+          "off_nanoseconds": 45845208,
+          "pure_nanoseconds": 354625,
+          "speedup": 129.27799224532959
+        },
+        "zlib-decompress": {
+          "off_nanoseconds": 6562416,
+          "pure_nanoseconds": 147875,
+          "speedup": 44.37813017751479
+        },
+        "zstd-compress": {
+          "off_nanoseconds": 4335750,
+          "pure_nanoseconds": 145084,
+          "speedup": 29.884411789032562
+        },
+        "zstd-decompress": {
+          "off_nanoseconds": 366666,
+          "pure_nanoseconds": 26875,
+          "speedup": 13.643386046511628
+        },
+        "xz-compress": {
+          "off_nanoseconds": 152679292,
+          "pure_nanoseconds": 1924208,
+          "speedup": 79.34656336529108
+        },
+        "xz-decompress": {
+          "off_nanoseconds": 22282500,
+          "pure_nanoseconds": 476541,
+          "speedup": 46.75883082462999
+        },
+        "sha256": {
+          "off_nanoseconds": 5210167,
+          "pure_nanoseconds": 88709,
+          "speedup": 58.73324014474292
+        },
+        "aes128-cbc-encrypt": {
+          "off_nanoseconds": 22674625,
+          "pure_nanoseconds": 200958,
+          "speedup": 112.83265657500573
+        },
+        "crc32": {
+          "off_nanoseconds": 2181000,
+          "pure_nanoseconds": 19417,
+          "speedup": 112.32425194417263
+        }
+      },
+      "whole_probe_wall_seconds": {
+        "off": 0.4678953749999999,
+        "pure": 0.24028170800000004
+      },
+      "whole_probe_speedup": 1.947278379592673
+    },
+    "streaming": {
+      "bytes": 4194304,
+      "encode_input_chunk": 16384,
+      "encode_output_chunk": 65536,
+      "decode_input_chunk": 65536,
+      "samples": [
+        {
+          "sample": 0,
+          "mode": "off",
+          "wall_seconds": 13.962182583,
+          "operations": [
+            {
+              "operation": "zlib-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 2619842125
+            },
+            {
+              "operation": "zlib-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 336794708
+            },
+            {
+              "operation": "xz-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 8016994792
+            },
+            {
+              "operation": "xz-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 1234063834
+            },
+            {
+              "operation": "zstd-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 239631459
+            },
+            {
+              "operation": "zstd-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 25158250
+            }
+          ],
+          "compute_calls": 0,
+          "worker_calls": 0,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 0,
+          "mode": "pure",
+          "wall_seconds": 3.869499083999999,
+          "operations": [
+            {
+              "operation": "zlib-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 64375083
+            },
+            {
+              "operation": "zlib-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 27315084
+            },
+            {
+              "operation": "xz-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 2083166959
+            },
+            {
+              "operation": "xz-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 163569667
+            },
+            {
+              "operation": "zstd-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 123504167
+            },
+            {
+              "operation": "zstd-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 22373416
+            }
+          ],
+          "compute_calls": 10,
+          "worker_calls": 886,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 804
+        },
+        {
+          "sample": 1,
+          "mode": "pure",
+          "wall_seconds": 3.763954375000001,
+          "operations": [
+            {
+              "operation": "zlib-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 56051000
+            },
+            {
+              "operation": "zlib-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 28403084
+            },
+            {
+              "operation": "xz-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 2050302250
+            },
+            {
+              "operation": "xz-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 133843375
+            },
+            {
+              "operation": "zstd-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 114352833
+            },
+            {
+              "operation": "zstd-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 21799250
+            }
+          ],
+          "compute_calls": 10,
+          "worker_calls": 886,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 804
+        },
+        {
+          "sample": 1,
+          "mode": "off",
+          "wall_seconds": 13.353219707999997,
+          "operations": [
+            {
+              "operation": "zlib-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 2572853542
+            },
+            {
+              "operation": "zlib-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 337117500
+            },
+            {
+              "operation": "xz-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 7882626542
+            },
+            {
+              "operation": "xz-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 1083866791
+            },
+            {
+              "operation": "zstd-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 213976375
+            },
+            {
+              "operation": "zstd-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 22561209
+            }
+          ],
+          "compute_calls": 0,
+          "worker_calls": 0,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 2,
+          "mode": "off",
+          "wall_seconds": 13.322306750000003,
+          "operations": [
+            {
+              "operation": "zlib-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 2543654417
+            },
+            {
+              "operation": "zlib-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 334708583
+            },
+            {
+              "operation": "xz-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 7914145291
+            },
+            {
+              "operation": "xz-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 1068964458
+            },
+            {
+              "operation": "zstd-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 217108166
+            },
+            {
+              "operation": "zstd-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 22362041
+            }
+          ],
+          "compute_calls": 0,
+          "worker_calls": 0,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 0
+        },
+        {
+          "sample": 2,
+          "mode": "pure",
+          "wall_seconds": 3.4208223329999967,
+          "operations": [
+            {
+              "operation": "zlib-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 50197333
+            },
+            {
+              "operation": "zlib-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 25734291
+            },
+            {
+              "operation": "xz-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 1799066042
+            },
+            {
+              "operation": "xz-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 131160125
+            },
+            {
+              "operation": "zstd-stream-compress",
+              "bytes": 4194304,
+              "nanoseconds": 112661917
+            },
+            {
+              "operation": "zstd-stream-decompress",
+              "bytes": 4194304,
+              "nanoseconds": 21607959
+            }
+          ],
+          "compute_calls": 10,
+          "worker_calls": 886,
+          "compute_fallbacks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "stream_native_steps": 804
+        }
+      ],
+      "medians": {
+        "zlib-stream-compress": {
+          "off_nanoseconds": 2572853542,
+          "pure_nanoseconds": 56051000,
+          "speedup": 45.90200963408324
+        },
+        "zlib-stream-decompress": {
+          "off_nanoseconds": 336794708,
+          "pure_nanoseconds": 27315084,
+          "speedup": 12.329989832723927
+        },
+        "xz-stream-compress": {
+          "off_nanoseconds": 7914145291,
+          "pure_nanoseconds": 2050302250,
+          "speedup": 3.8599895654409004
+        },
+        "xz-stream-decompress": {
+          "off_nanoseconds": 1083866791,
+          "pure_nanoseconds": 133843375,
+          "speedup": 8.09802346212504
+        },
+        "zstd-stream-compress": {
+          "off_nanoseconds": 217108166,
+          "pure_nanoseconds": 114352833,
+          "speedup": 1.8985814369811023
+        },
+        "zstd-stream-decompress": {
+          "off_nanoseconds": 22561209,
+          "pure_nanoseconds": 21799250,
+          "speedup": 1.0349534502333795
+        }
+      },
+      "whole_probe_wall_seconds": {
+        "off": 13.353219707999997,
+        "pure": 3.763954375000001
+      },
+      "whole_probe_speedup": 3.5476571652120503
+    }
+  }
+}

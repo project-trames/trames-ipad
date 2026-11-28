@@ -67,4 +67,4 @@ loader beside each fixture; the runners require fresh private stores.
 
 Runtime pin: `e188a11a0925e1e8503943be7f4cfe2990b07cee`. The latest main interpreter/JIT ancestry was fast-forwarded without rewriting published commits; the iPad dependency boundary remains interpreter-only. Final probes were repeated on this merged implementation.
 
-Build 50 was signature-verified and installed in place on the paired iPad. Automatic launch was refused because the device was locked; launch verification is pending an unlock.
+Build 50 was signature-verified and installed in place on the paired iPad. After the owner unlocked the device, Trames launched successfully and remained running as PID 23006. Device application metadata independently reports version 1.5.4 / build 50.
